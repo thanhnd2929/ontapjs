@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Đăng Kí Thành Viên</h1>
+    <form name="myForm" onsubmit="return validate()">
+        <table>
+            <tr>
+                <td>
+                    Họ Tên:
+                </td>
+                <td>
+                    <input type="text" name="hoTen">
+                    <span id="ht"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tuổi:
+                </td>
+                <td>
+                    <input type="text" name="tuoi">
+                    <span id="age"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td>
+                    <input type="text" name="email">
+                    <span id="email"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Số điện thoại:
+                </td>
+                <td>
+                    <input type="text" name="sdt">
+                    <span id="phone"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Đăng Kí">
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+<script src="app.js"></script>
+</html>
